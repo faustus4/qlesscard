@@ -1,0 +1,14 @@
+C:\Users\ELD73157\source\repos\QLessTransportCard\QLessTransportCard\bin\Debug\netcoreapp2.1\QLessTransportCard.deps.json
+C:\Users\ELD73157\source\repos\QLessTransportCard\QLessTransportCard\bin\Debug\netcoreapp2.1\QLessTransportCard.runtimeconfig.json
+C:\Users\ELD73157\source\repos\QLessTransportCard\QLessTransportCard\bin\Debug\netcoreapp2.1\QLessTransportCard.runtimeconfig.dev.json
+C:\Users\ELD73157\source\repos\QLessTransportCard\QLessTransportCard\bin\Debug\netcoreapp2.1\QLessTransportCard.dll
+C:\Users\ELD73157\source\repos\QLessTransportCard\QLessTransportCard\bin\Debug\netcoreapp2.1\QLessTransportCard.pdb
+C:\Users\ELD73157\source\repos\QLessTransportCard\QLessTransportCard\obj\Debug\netcoreapp2.1\QLessTransportCard.csprojAssemblyReference.cache
+C:\Users\ELD73157\source\repos\QLessTransportCard\QLessTransportCard\obj\Debug\netcoreapp2.1\QLessTransportCard.csproj.CoreCompileInputs.cache
+C:\Users\ELD73157\source\repos\QLessTransportCard\QLessTransportCard\obj\Debug\netcoreapp2.1\QLessTransportCard.RazorAssemblyInfo.cache
+C:\Users\ELD73157\source\repos\QLessTransportCard\QLessTransportCard\obj\Debug\netcoreapp2.1\QLessTransportCard.RazorAssemblyInfo.cs
+C:\Users\ELD73157\source\repos\QLessTransportCard\QLessTransportCard\obj\Debug\netcoreapp2.1\QLessTransportCard.AssemblyInfoInputs.cache
+C:\Users\ELD73157\source\repos\QLessTransportCard\QLessTransportCard\obj\Debug\netcoreapp2.1\QLessTransportCard.AssemblyInfo.cs
+C:\Users\ELD73157\source\repos\QLessTransportCard\QLessTransportCard\obj\Debug\netcoreapp2.1\QLessTransportCard.RazorTargetAssemblyInfo.cache
+C:\Users\ELD73157\source\repos\QLessTransportCard\QLessTransportCard\obj\Debug\netcoreapp2.1\QLessTransportCard.dll
+C:\Users\ELD73157\source\repos\QLessTransportCard\QLessTransportCard\obj\Debug\netcoreapp2.1\QLessTransportCard.pdb
