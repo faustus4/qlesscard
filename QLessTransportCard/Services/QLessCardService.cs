@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using QLessTransportCard.Data;
 using QLessTransportCard.Models;
+using QLessTransportCard.Domain;
 
 namespace QLessTransportCard.Services
 {
@@ -16,21 +17,32 @@ namespace QLessTransportCard.Services
             _qLessCardContext = qLessCardContext;
         }
 
-        public void CreateQLessCard()
+        public int CreateQLessCard(NewCardRequestModel model)
         {
+            int response = 0;
             try
             {
-                var newCard = _qLessCardContext.QLessCards.Add(
-                new QLessCard { DateCreated = DateTime.Now, CardType = 1, Balance = 50 }
-                );
+                var cardType = _qLessCardContext.QLessCardTypes.Where(q => q.ID == model.CardType).FirstOrDefault<QLessCardType>();
+
+                var newCard = new QLessCard
+                {
+                    DateCreated = DateTime.Now,
+                    CardType = model.CardType,
+                    Balance = cardType.StartingBalance
+                };
+
+                _qLessCardContext.QLessCards.Add(newCard);
 
                 _qLessCardContext.SaveChanges();
-                var test = "hey";
+
+                response = newCard.ID;
             }
-            catch
+            catch (Exception ex)
             {
 
             }
+
+            return response;
         }
     }
 }

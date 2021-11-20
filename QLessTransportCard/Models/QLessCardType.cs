@@ -16,5 +16,7 @@ namespace QLessTransportCard.Models
         public decimal MinimumReload { get; set; }
         public decimal MaximumReload { get; set; }
         public decimal MaximumBalance { get; set; }
+        public decimal StartingBalance { get; set; }
+        public int YearsValid { get; set; }
     }
 }
